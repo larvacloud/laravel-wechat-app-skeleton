@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/about/about",
+    "pages/web/web"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Laravel",
+    "navigationBarTextStyle":"black",
+    "pageOrientation": "auto"
+  },
+  "tabBar": {
+    "color": "#959595",
+    "selectedColor": "#118fff",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+        {
+            "pagePath": "pages/index/index",
+            "iconPath": "images/tab-home.png",
+            "selectedIconPath": "images/tab-home-on.png",
+            "text": "首页"
+        },
+        {
+            "pagePath": "pages/about/about",
+            "iconPath": "images/tab-about.png",
+            "selectedIconPath": "images/tab-about-on.png",
+            "text": "关于"
+        }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "navigateToMiniProgramAppIdList": [
+
+  ],
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "resizable":false
+}

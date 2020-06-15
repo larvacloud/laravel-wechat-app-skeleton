@@ -1,0 +1,21 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+/** 底部版权 **/
+.copyright {
+  font-size: 26rpx;
+  line-height: 1.6;
+  font-weight: 400;
+  text-align: center;
+  color: #c4c4c4;
+  margin-top: 48rpx;
+  padding-bottom: 80rpx;
+}
